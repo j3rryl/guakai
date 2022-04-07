@@ -1,0 +1,98 @@
+body {
+  font-family: "Varela Round", cursive !important;
+}
+.main-header {
+  border: 1px solid black;
+  width: 75vw;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 12.5px;
+  border-radius: 14px;
+  font-weight: 500;
+}
+.nav-links a.active {
+  color: white;
+  background-color: rgb(130, 171, 204);
+}
+.nav-links a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(130, 171, 204);
+}
+.main-content {
+  text-align: center;
+  width: 50vw;
+  margin: 0 auto;
+}
+.main-content h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.main-content p {
+  font-size: 0.8rem;
+}
+.view-btn {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #5e6e82;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.img-container {
+  width: 50vw;
+  height: 60vh;
+  margin: 0 auto;
+  overflow: hidden;
+  border: none;
+  border-radius: 10px;
+}
+.promo-img {
+  align-items: center;
+  transition: transform 0.2s;
+}
+.promo-img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.more-promo {
+  width: 50vw;
+  margin: 0 auto;
+}
+.more-imgs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.more-img-container {
+  width: 10vw;
+  height: 10vw;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.guarantee-stuff {
+  display: flex;
+}
